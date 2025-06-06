@@ -1,0 +1,142 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+} */
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+#platform-filter {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+    border-radius: 4px;
+}
+
+#contests {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contest-card {
+    background-color: #5a5a5a;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.contest-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contest-card p {
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.contest-card a {
+    color: #4e9af1;
+    text-decoration: none;
+}
+
+.contest-card a:hover {
+    text-decoration: underline;
+}
+
+/* button {
+    background: linear-gradient(to right, #F97316, #C2410C);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px;
+} */
+
+button:hover {
+    background-color: #f78b08;
+}
+
+#reminder-form {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    color: #e0e0e0;
+}
+
+#reminder-form h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#reminder-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#reminder-form form label {
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+#reminder-form form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+#reminder-form form button {
+    align-self: center;
+}
+
+.date {
+    margin-right: 10px;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.card-text{
+    min-height: 170px;
+}
+.logoo{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contests-list{
+    margin: 0px;
+}
